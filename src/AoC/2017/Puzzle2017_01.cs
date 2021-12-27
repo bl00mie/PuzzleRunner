@@ -1,4 +1,5 @@
-﻿using PuzzleRunner.Solution;
+﻿using PuzzleRunner.Caching;
+using PuzzleRunner.Solution;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +18,22 @@ namespace PuzzleRunner
 
         public override string Part1()
         {
+            var stuff = DoAThing((1, 2));
+            stuff = DoAThing(stuff);
+            stuff = DoAThing(stuff);
+            stuff = DoAThing(stuff);
             return string.Empty;
         }
 
         public override string Part2()
         {
             return string.Empty;
+        }
+
+        [Cache]
+        public (int x, int y) DoAThing((int x, int y) input)
+        {
+            return new (input.y, input.x);
         }
     }
 }

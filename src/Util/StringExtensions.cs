@@ -1,4 +1,4 @@
-﻿namespace PuzzleRunner
+﻿namespace PuzzleRunner.Util
 {
     public static class StringExtensions
     {

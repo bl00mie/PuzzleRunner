@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using PuzzleRunner.Config;
 using PuzzleRunner.Solution;
+using PuzzleRunner.Util;
 using System.Diagnostics;
 using System.Net;
 

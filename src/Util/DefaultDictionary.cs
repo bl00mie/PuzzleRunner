@@ -1,4 +1,4 @@
-﻿namespace PuzzleRunner
+﻿namespace PuzzleRunner.Util
 {
     public class DefaultDictionary<TKey, TValue> : Dictionary<TKey, TValue?> where TKey : notnull
     {

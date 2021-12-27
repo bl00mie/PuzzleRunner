@@ -1,10 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
-using PuzzleRunner.Config;
+﻿using PuzzleRunner.Util;
 using System.Diagnostics;
 
 namespace PuzzleRunner.Solution
 {
-    public abstract class Solution
+    public abstract class SolutionBase
     {
         public virtual IEnumerable<Func<string>> Parts { get; } = Enumerable.Empty<Func<string>>();
 

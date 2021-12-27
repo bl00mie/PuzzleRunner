@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace PuzzleRunner
+namespace PuzzleRunner.Util
 {
     public class Clipboard
     {

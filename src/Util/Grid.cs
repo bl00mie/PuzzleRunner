@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace PuzzleRunner
+namespace PuzzleRunner.Util
 {
     public class Grid<T> : IEnumerable<(Point p, T? v)>
     {

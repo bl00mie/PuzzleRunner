@@ -4,7 +4,7 @@ using System.Net;
 
 namespace PuzzleRunner.Solution
 {
-    public abstract class AoCSolution : Solution
+    public abstract class AoCSolution : SolutionBase
     {
         public override IEnumerable<Func<string>> Parts { get; }
         

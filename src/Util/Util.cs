@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace PuzzleRunner
+namespace PuzzleRunner.Util
 {
     internal static class Util
     {
