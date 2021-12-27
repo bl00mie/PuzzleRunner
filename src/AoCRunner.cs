@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using PuzzleRunner.AoC;
 using PuzzleRunner.Config;
 using PuzzleRunner.Solution;
 using PuzzleRunner.Util;
@@ -11,7 +12,8 @@ namespace PuzzleRunner
     {
         private static readonly Dictionary<(string, string), Type> Solutions = new()
         {
-            [("2017", "1")] = typeof(Puzzle2017_01)
+            [("2017", "1")] = typeof(Puzzle2017_01),
+            [("2021", "24")] = typeof(Puzzle2021_24),
         };
 
         public static string PuzzleType = "aoc";

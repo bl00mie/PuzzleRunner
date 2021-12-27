@@ -29,7 +29,7 @@ namespace PuzzleRunner
             InitConfig();
             var section = Config.GetSection(AoCSection.SectionName);
             var aocConfig = section.Get<AoCSection>();
-            var runner = new AoCRunner(aocConfig, "2017", "1");
+            var runner = new AoCRunner(aocConfig, "2021", "24");
             var input = runner.RetrieveInputAsync(Config).Result;
             runner.RunSolution(input);
         }
